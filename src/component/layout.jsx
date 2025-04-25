@@ -2,7 +2,7 @@ import React, { useState, lazy, Suspense } from "react";
 import Header from "./Header";
 import { Box } from "@mui/material";
 
-const Sidebar = lazy(() => import("./Sidebar"));
+const Sidebar = lazy(() => import("./sidebar"));
 const Home = lazy(() => import("./Home"));
 
 const DashboardLayout = () => {
